@@ -26,12 +26,12 @@ class EmailLabsConfig{
     /**
      * @var string App key from EmailLabs panel
      */
-    private $appKey = '';
+    static public $appKey = '';
 
     /**
      * @var string App secret from EmailLabs panel
      */
-    private $appSecret = '';
+    static public $appSecret = '';
 
     /**
      * @var string Protocol of query
