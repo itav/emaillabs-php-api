@@ -54,7 +54,7 @@ class EmailLabsConfig{
      * @return string App key
      */
     public function getAppKey(){
-        return $this->appKey;
+        return self::$appKey;
     }
 
     /**
@@ -63,7 +63,7 @@ class EmailLabsConfig{
      * @return string App secret
      */
     public function getAppSecret(){
-        return $this->appSecret;
+        return self::$appSecret;
     }
 
     /**
